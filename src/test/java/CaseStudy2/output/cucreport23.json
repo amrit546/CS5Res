@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-27T03:00:15.663Z",
+        "line": 14,
+        "name": "Logging in",
+        "description": "",
+        "id": "login-to-testmeapp;logging-in;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2041611400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Case2.windowClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24516410900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open Site in browser",
+            "match": {
+              "location": "Case2.site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1581883800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the Lalitha and Password123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 10
+                },
+                {
+                  "val": "Password123",
+                  "offset": 22
+                }
+              ],
+              "location": "Case2.userdetails(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5321458700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on login",
+            "match": {
+              "location": "Case2.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-27T03:00:49.136Z",
+        "line": 15,
+        "name": "Logging in",
+        "description": "",
+        "id": "login-to-testmeapp;logging-in;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 390633900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Case2.windowClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9175883600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open Site in browser",
+            "match": {
+              "location": "Case2.site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223663500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the Lalitha and Password123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 10
+                },
+                {
+                  "val": "Password123",
+                  "offset": 22
+                }
+              ],
+              "location": "Case2.userdetails(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 959102900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on login",
+            "match": {
+              "location": "Case2.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to TestMeApp",
+    "description": " log in using details",
+    "id": "login-to-testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:CaseStudy2/Case2ftr.feature",
+    "tags": []
+  }
+]
